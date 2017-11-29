@@ -1,6 +1,6 @@
 {
     "name": "mycron",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "description": "Monitoring cronjobs at your servers via ssh connection",
     "main": "./lib/route.js",
     "directories": {
