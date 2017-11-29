@@ -1,8 +1,8 @@
 {
-    "name": "cron-serw",
+    "name": "mycron",
     "version": "0.0.1",
     "description": "Monitoring cronjobs at your servers via ssh connection",
-    "main": "./lib/cron-serw.js",
+    "main": "./lib/route.js",
     "directories": {
         "test": "test"
     },
@@ -13,7 +13,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "github.com/cetinerhalil/crontime.git"
+        "url": "github.com/cetinerhalil/mycron.git"
     },
     "engines": {
         "node": ">=0.8"
