@@ -32,7 +32,8 @@ var params = {
 //and get your crons
 
 mycron.getCrons(params, function(crons){
-console.log(crons);  
+  console.log(crons);
+  //or whatever you want to do
 });
 ```
 
