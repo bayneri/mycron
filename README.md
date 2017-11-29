@@ -44,17 +44,17 @@ The response is an array which contains cronjobs sorted by remaining times to ne
   [ 
     {
       time: moment("2017-11-30T00:25:00.000"),
-      job: 'NODE_ENV=prod node $HOME/apps/test.js',
+      job: 'NODE_ENV=prod node $HOME/scripts/test1.js',
       remainingTime: 'in a minute'
     }, 
     {
       time: moment("2017-11-30T01:30:00.000"),
-      job: 'NODE_ENV=prod node $HOME/apps/test.js',
+      job: 'NODE_ENV=prod node $HOME/scripts/test2.js',
       remainingTime: 'in an hour and 6 minutes'
     },
     {
       time: moment("2017-11-31T06:00:00.000"),
-      job: 'NODE_ENV=prod node $HOME/apps/test.js',
+      job: php $HOME/scripts/test3.php',
       remainingTime: 'in a day, 5 hours and 36 minutes'
     }
   ]
