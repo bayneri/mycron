@@ -1,0 +1,37 @@
+{
+    "name": "cron-serw",
+    "version": "0.0.1",
+    "description": "Monitoring cronjobs at your servers via ssh connection",
+    "main": "./lib/cron-serw.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "standard"
+    },
+    "author": "Halil Cetiner",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "github.com/cetinerhalil/crontime.git"
+    },
+    "engines": {
+        "node": ">=0.8"
+    },
+    "browser": {
+        "fs": false
+    },
+    "dependencies": {
+        "cron-parser": "2.4.3",
+        "lodash": "^4.17.4",
+        "moment-timezone": "^0.5.0",
+        "ssh-exec": "2.0.0"
+    },
+    "devDependencies": {
+        "standard": "^5.4.1"
+    },
+    "keywords": [
+        "cron",
+        "crontab"
+    ]
+}
