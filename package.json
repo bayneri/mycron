@@ -9,12 +9,12 @@
     "scripts": {
         "test": "standard"
     },
-    "author": "Halil Cetiner",
-    "license": "MIT",
+    "author": "Halil Cetiner (@cetinerhalil)",
     "repository": {
         "type": "git",
         "url": "github.com/cetinerhalil/mycron.git"
     },
+    "homepage": "https://github.com/cetinerhalil/mycron",
     "engines": {
         "node": ">=0.8"
     },
@@ -33,5 +33,7 @@
     "keywords": [
         "cron",
         "crontab"
-    ]
+    ],
+
+    "license": "MIT",
 }
