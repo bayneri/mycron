@@ -1,6 +1,6 @@
 {
     "name": "mycron",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Monitoring cronjobs at your servers via ssh connection",
     "main": "./lib/route.js",
     "directories": {
@@ -12,7 +12,7 @@
     "author": "Halil Cetiner (@cetinerhalil)",
     "repository": {
         "type": "git",
-        "url": "github.com/cetinerhalil/mycron.git"
+        "url": "https://github.com/cetinerhalil/mycron.git"
     },
     "homepage": "https://github.com/cetinerhalil/mycron",
     "engines": {
@@ -32,8 +32,9 @@
     },
     "keywords": [
         "cron",
-        "crontab"
+        "crontab",
+        "monitor",
+        "ssh"
     ],
-
-    "license": "MIT",
+    "license": "MIT"
 }
