@@ -1,7 +1,7 @@
 {
     "name": "mycron",
-    "version": "0.1.2",
-    "description": "Monitoring cronjobs at your servers via ssh connection",
+    "version": "0.2.0",
+    "description": "A node.js module for monitoring and creating cronjobs via ssh connection",
     "main": "./lib/route.js",
     "directories": {
         "test": "test"
